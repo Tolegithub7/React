@@ -1,0 +1,15 @@
+.RiseUp {
+  background-color: aqua !important;
+  padding: 10px;
+}
+.GetDown {
+  background-color: aquamarine !important;
+  padding: 10px;
+}
+.Reset {
+  background-color: antiquewhite;
+  padding: 10px;
+}
+button {
+  margin: 5px;
+}
