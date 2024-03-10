@@ -6,7 +6,7 @@ export default function UsingUseEffect() {
   useEffect(() => {
     console.log("Hello there!");
     document.title = `Count: ${count}`;
-  }, []);
+  }, [count, age]);
   return (
     <div>
       <h1> Function Based Components LifeCycle</h1>
