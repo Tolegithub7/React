@@ -1,5 +1,5 @@
 import React from "react";
-import Tube from "./Youtube/tube";
+import Tube from "./Youtube/Tube";
 
 export default function main() {
   return (

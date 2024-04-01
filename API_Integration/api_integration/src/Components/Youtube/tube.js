@@ -1,5 +1,5 @@
-// import React from "react";
-// import "./tube.css";
+import React from "react";
+import "./tube.css";
 
 // function tube() {
 //   return (
@@ -60,7 +60,7 @@ function Tube() {
       });
   }, []);
 
-  console.log(youTubeVideos);
+  console.log("the out put is: ", youTubeVideos);
 
   return (
     <section className="youtubeVideosWrapper">
@@ -68,7 +68,7 @@ function Tube() {
         <div className="container">
           <div className="row justify-content-center text-center">
             <div className="col-12">
-              <div className="title-wrapper">
+              <div className="title-wrapper ">
                 <br />
                 <h1>Latest Video</h1>
                 <br />
@@ -87,6 +87,16 @@ function Tube() {
                           alt="thumbnails"
                         />
                       </a>
+                    </div>
+                    <div className="videoInfoWrapper">
+                      <div className="videoTitle">
+                        <a href={vidLink} target="_blank" rel="noreferrer">
+                          {singleVideo.snippet.title}
+                        </a>
+                      </div>
+                      <div className="videoDesc">
+                        {singleVideo.snippet.description}
+                      </div>
                     </div>
                   </div>
                 </div>
