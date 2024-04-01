@@ -1,0 +1,46 @@
+.AllVideosWrapper {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.title-wrapper {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.video-details {
+  padding: 10px;
+}
+
+.video-details h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.video-details p {
+  font-size: 14px;
+  color: #888;
+}
