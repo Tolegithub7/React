@@ -1,13 +1,15 @@
-import React from "react";
-import Navbar from "./components/Navbar/Navbar.jsx";
+import "./App.css";
+import file from "./assets/file.png";
+import logo from "./assets/Logo (2).png";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1>Hello, Ebusers!</h1>
-      <Navbar />
-    </div>
+    <>
+      <img src={file} alt="" />
+      <h1>Ebusers</h1>
+      <img src={logo} alt="" />
+    </>
   );
-};
+}
 
 export default App;
