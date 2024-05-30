@@ -1,8 +1,9 @@
-import logo from "../../assets/file.png";
+import logo from "../../assets/file (1).png";
+import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav>
-      <img src={logo} alt="" />
+      <img src={logo} alt="" className="logo" />
       <ul>
         <li>Home</li>
         <li>Program</li>
