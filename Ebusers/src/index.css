@@ -30,6 +30,11 @@ a {
   outline: 0;
   font-weight: bold;
 }
+.btn:hover {
+  color: #ff0000;
+  transform: scale(1.1) translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
