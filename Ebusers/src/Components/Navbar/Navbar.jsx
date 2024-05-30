@@ -2,7 +2,7 @@ import logo from "../../assets/file (1).png";
 import "./Navbar.css";
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="container">
       <img src={logo} alt="" className="logo" />
       <ul>
         <li>Home</li>
