@@ -8,6 +8,10 @@ const Programs = () => {
     <div className="Programs">
       <div className="program">
         <img src={program1} alt="" />
+        <div className="caption">
+          <img src="" alt="" />
+          <p>Graduation degree</p>
+        </div>
       </div>
       <div className="program">
         <img src={program2} alt="" />
