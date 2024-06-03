@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <div className="container">
-        <Title />
+        <Title subtitle="Our Program" title="What we offer" />
         <Programs />
       </div>
       <h1>Ebusers</h1>
