@@ -9,8 +9,8 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Title />
       <div className="container">
+        <Title />
         <Programs />
       </div>
       <h1>Ebusers</h1>
