@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Programs from "./Components/Programs/Programs";
 import Title from "./Components/Title/Title";
+import About from "./Components/About/About";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Title subtitle="Our Program" title="What we offer" />
         <Programs />
       </div>
+      <About />
       <h1>Ebusers</h1>
     </>
   );
