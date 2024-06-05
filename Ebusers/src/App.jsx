@@ -13,8 +13,8 @@ function App() {
       <div className="container">
         <Title subtitle="Our Program" title="What we offer" />
         <Programs />
+        <About />
       </div>
-      <About />
       <h1>Ebusers</h1>
     </>
   );

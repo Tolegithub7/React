@@ -1,0 +1,24 @@
+.about {
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.about-left {
+  flex-basis: 40%;
+  position: relative;
+}
+.about-right {
+  flex-basis: 56%;
+}
+.about-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.play-icon {
+  position: absolute;
+  top: 160px;
+  left: 160px;
+  opacity: 0.8;
+}
