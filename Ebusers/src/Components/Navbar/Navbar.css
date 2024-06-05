@@ -25,3 +25,7 @@ li:hover {
   transform: scale(1.1) translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+.dark-nav {
+  background-color: #000000;
+  transition: 0.5s;
+}
