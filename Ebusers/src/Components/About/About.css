@@ -17,8 +17,9 @@
   border-radius: 10px;
 }
 .play-icon {
+  width: 60px;
   position: absolute;
-  top: 160px;
-  left: 160px;
-  opacity: 0.8;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
