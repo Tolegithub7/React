@@ -11,6 +11,7 @@ const Testimonials = () => {
     <div>
       <img src={nexticon} alt="" className="next-btn" />
       <img src={backicon} alt="" className="back-btn" />
+      <div className="slider"></div>
     </div>
   );
 };
