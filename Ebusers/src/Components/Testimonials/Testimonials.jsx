@@ -8,9 +8,13 @@ import backicon from "../../assets/back-icon.png";
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className="testimonials">
       <img src={nexticon} alt="" className="next-btn" />
       <img src={backicon} alt="" className="back-btn" />
+      {/* <img src={user1} alt="" />
+      <img src={user2} alt="" />
+      <img src={user3} alt="" />
+      <img src={user4} alt="" /> */}
       <div className="slider"></div>
     </div>
   );
