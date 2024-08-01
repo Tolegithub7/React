@@ -6,10 +6,12 @@ import Title from "./Components/Title/Title";
 import About from "./Components/About/About";
 import Campus from "./Components/Campus/Campus";
 import Testimonials from "./Components/Testimonials/Testimonials";
+import Header from "./Components/Header/header";
 
 function App() {
   return (
     <>
+      <Header />
       <Navbar />
       <Hero />
       <div className="container">
