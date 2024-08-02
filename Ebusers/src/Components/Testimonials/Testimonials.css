@@ -1,4 +1,4 @@
-.testimonials {
+/* .testimonials {
   margin: 80px auto;
   padding: 0 80px;
   position: relative;
@@ -15,6 +15,28 @@
   border-radius: 50%;
   cursor: pointer;
   background: #212ea0;
+}
+.back-btn {
+  right: auto;
+  left: 0;
+} */
+
+.testimonials {
+  margin: 80px auto;
+  padding: 0 80px;
+  position: relative;
+}
+
+.back-btn,
+.next-btn {
+  background-color: rgba(30, 82, 0, 0.8);
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
 }
 .back-btn {
   right: auto;

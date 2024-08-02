@@ -15,7 +15,9 @@ const Testimonials = () => {
       <img src={user2} alt="" />
       <img src={user3} alt="" />
       <img src={user4} alt="" /> */}
-      <div className="slider"></div>
+      <div className="slider">
+        <p>uuuuuuuuuuuuuuuuuuu</p>
+      </div>
     </div>
   );
 };
