@@ -7,6 +7,7 @@ import About from "./Components/About/About";
 import Campus from "./Components/Campus/Campus";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Header from "./Components/Header/header";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Title subtitle="TESTIMONIALS" title="What student said" />
         <Testimonials />
         <Title subtitle="Contact Us" title="Get In Touch" />
+        <Contact />
       </div>
       <h1>Ebusers</h1>
     </>
