@@ -10,10 +10,15 @@ const Navbar = () => {
     });
   }, []);
 
+  const [mobileMenu, setmobileMenu] = useState(false);
+  const toggleMenu = () => {
+    mobileMenu ? setmobileMenu(false) : setmobileMenu(true);
+  };
+
   return (
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
       <img src={logo} alt="" className="logo" />
-      <ul>
+      <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
           <Link to="hero" smooth="true" offset={0} duration={500}>
             Home
@@ -51,7 +56,9 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      <i className="fas fa-bars menu-icon"></i>
+      <span className="menu-icon" onClick={toggleMenu}>
+        <i className="fas fa-bars menu-icon"></i>
+      </span>
     </nav>
   );
 };
