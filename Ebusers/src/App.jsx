@@ -28,7 +28,6 @@ function App() {
         <Contact />
         <Footer />
       </div>
-      <h1>Ebusers</h1>
     </>
   );
 }
