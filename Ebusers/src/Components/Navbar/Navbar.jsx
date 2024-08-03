@@ -51,6 +51,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      <i className="fas fa-bars menu-icon"></i>
     </nav>
   );
 };
