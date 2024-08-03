@@ -33,3 +33,16 @@
   font-weight: 600;
   font-size: 18px;
 }
+.contact form input,
+.contact form textarea {
+  display: block;
+  width: 90%;
+  background: #ebebeb;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+  font-weight: 700;
+}
