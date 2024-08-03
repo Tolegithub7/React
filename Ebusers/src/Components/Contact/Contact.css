@@ -5,3 +5,31 @@
   align-items: center;
   justify-content: space-between;
 }
+.contact-col {
+  flex-basis: 45%;
+  color: rgb(0, 56, 0);
+}
+
+.contact-col h3 {
+  color: #000f38;
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.contact-col h3 img {
+  width: 30px;
+  margin-left: 10px;
+}
+.contact-col p {
+  max-width: 450px;
+  line-height: 1.2;
+}
+.contact-col li {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
