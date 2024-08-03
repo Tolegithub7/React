@@ -22,11 +22,11 @@ function App() {
         <Campus />
         <Title subtitle="TESTIMONIALS" title="What student said" />
         <Testimonials />
+        <Title subtitle="Contact Us" title="Get In Touch" />
       </div>
       <h1>Ebusers</h1>
     </>
   );
 }
-
 
 export default App;
