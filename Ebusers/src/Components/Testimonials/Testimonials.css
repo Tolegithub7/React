@@ -37,6 +37,7 @@
   padding: 15px;
   width: 50px;
   border-radius: 50%;
+  margin-top: 200px;
 }
 .back-btn {
   right: auto;
@@ -50,6 +51,7 @@
   width: 200%;
   overflow-x: hidden;
   transition: 0.5s;
+  transform: translateX(-50%);
 }
 .slider ul li {
   list-style: none;

@@ -5,14 +5,32 @@ import user1 from "../../assets/user-1.jpeg";
 import user2 from "../../assets/user-2.jpg";
 import user3 from "../../assets/user-3.jpg";
 import user4 from "../../assets/user-4.jpeg";
+import { useRef, useState } from "react";
 
 const Testimonials = () => {
+  const slider = useRef();
+  const [tx, setTx] = useState(0);
+
+  const slideForward = () => {
+    if (tx > -50) {
+      setTx(tx - 25);
+      slider.current.style.transform = `translateX(${tx - 25}%)`;
+    }
+  };
+
+  const slideBackward = () => {
+    if (tx < 0) {
+      setTx(tx + 25);
+      slider.current.style.transform = `translateX(${tx + 25}%)`;
+    }
+  };
+
   return (
     <div className="testimonials">
-      <img src={nexticon} alt="" className="next-btn" />
-      <img src={backicon} alt="" className="back-btn" />
+      <img src={nexticon} alt="" className="next-btn" onClick={slideForward} />
+      <img src={backicon} alt="" className="back-btn" onClick={slideBackward} />
       <div className="slider">
-        <ul>
+        <ul ref={slider}>
           <li>
             <div className="slide">
               <div className="user-info">
