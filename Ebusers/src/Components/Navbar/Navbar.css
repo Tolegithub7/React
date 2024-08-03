@@ -20,7 +20,7 @@ nav ul li {
   margin: 5px 20px;
   font-size: 16px;
 }
-li:hover {
+nav ul li:hover {
   color: #ff0000;
   transform: scale(1.1) translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -28,4 +28,30 @@ li:hover {
 .dark-nav {
   background-color: #000000;
   transition: 0.5s;
+}
+
+/* ----- media -----  */
+@media (max-width: 1060px) {
+  .logo {
+    width: 150px;
+  }
+  nav ul li {
+    margin: 10px 15px;
+  }
+}
+@media (max-width: 880px) {
+  nav {
+    padding: 15px 0;
+  }
+  nav ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #34ac74;
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+  }
 }
