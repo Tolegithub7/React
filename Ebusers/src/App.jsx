@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import Programs from "./Components/Programs/Programs";
@@ -6,14 +6,14 @@ import Title from "./Components/Title/Title";
 import About from "./Components/About/About";
 import Campus from "./Components/Campus/Campus";
 import Testimonials from "./Components/Testimonials/Testimonials";
-import Header from "./Components/Header/header";
+// import Header from "./Components/Header/header";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Navbar />
       <Hero />
       <div className="container">

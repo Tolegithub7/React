@@ -32,7 +32,7 @@
   cursor: pointer;
   opacity: 0;
   padding-top: 70%;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 .caption:hover {
   opacity: 1;
@@ -41,4 +41,16 @@
 .caption img {
   width: 60px;
   margin-bottom: 10px;
+}
+
+/* ----- Media query -----  */
+
+@media (max-width: 630px) {
+  .Programs {
+    flex-direction: column;
+  }
+  .program {
+    flex-basis: 100%;
+    margin: 20px;
+  }
 }

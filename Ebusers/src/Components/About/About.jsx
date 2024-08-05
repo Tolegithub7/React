@@ -11,25 +11,27 @@ const About = () => {
       </div>
       <div className="about-right">
         <h3>ABOUT UNIVERSITY</h3>
-        <h2>Nurturing Tomorrows Leaders Today</h2>
+        <h2>Nurturing Tomorrow&#39;s Leaders Today</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos quaerat,
-          placeat sint consequatur molestias quidem accusamus deleniti possimus
-          doloribus rerum? Voluptatibus quod dolorum at consequatur? Sapiente
-          sit asperiores odio cumque?
+          Our university is dedicated to fostering the next generation of
+          leaders through a comprehensive and innovative curriculum. We strive
+          to provide students with the knowledge, skills, and experiences needed
+          to excel in their chosen fields.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-          veniam, rem totam ipsam deserunt similique consectetur molestiae
-          officiis laudantium atque optio porro ad sint. Placeat minus commodi
-          eaque fugiat autem totam deserunt distinctio vero cum adipisci
-          blanditiis in ea quo nemo veniam reprehenderit illum cumque doloremque
-          natus, dolor, rerum quibusdam.
+          We believe in the power of education to transform lives and
+          communities. Our faculty comprises experienced educators and industry
+          professionals who are passionate about teaching and mentoring
+          students. With state-of-the-art facilities and a supportive learning
+          environment, we ensure our students have access to the resources they
+          need to succeed.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa unde
-          incidunt magnam eius necessitatibus delectus ex perferendis qui quia
-          praesentium!
+          Our commitment to excellence is reflected in our diverse and inclusive
+          campus culture. We encourage students to think critically, engage in
+          meaningful research, and contribute to society through community
+          service and leadership initiatives. Join us in our mission to shape a
+          brighter future for all.
         </p>
       </div>
     </div>
