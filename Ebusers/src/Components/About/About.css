@@ -47,6 +47,7 @@
   }
   .about-left {
     flex-basis: 100%;
+    order: 2;
     margin: 40px;
   }
   .about-right {
