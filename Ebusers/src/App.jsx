@@ -9,6 +9,7 @@ import Testimonials from "./Components/Testimonials/Testimonials";
 // import Header from "./Components/Header/header";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import VideoPlayer from "./Components/VideoPlayer/VideoPlayer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Title subtitle="Contact Us" title="Get In Touch" />
         <Contact />
         <Footer />
+        <VideoPlayer />
       </div>
     </>
   );
