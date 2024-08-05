@@ -46,3 +46,11 @@
   resize: none;
   font-weight: 700;
 }
+
+/* ----- media -----  */
+
+@media (max-width: 767px) {
+  .contact {
+    display: block;
+  }
+}

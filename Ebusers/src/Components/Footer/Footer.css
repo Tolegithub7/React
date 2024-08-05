@@ -11,3 +11,11 @@
   display: inline-block;
   margin-left: 20px;
 }
+
+/* ----- media -----  */
+
+@media (max-width: 767px) {
+  .footer ul li {
+    display: block;
+  }
+}
