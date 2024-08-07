@@ -1,3 +1,10 @@
+.App-header {
+  align-items: center;
+  font-size: 40px;
+}
+.hey {
+  font-size: 35px;
+}
 .youtubeVideosWrapper {
   padding: 20px;
 }
