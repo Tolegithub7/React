@@ -1,12 +1,17 @@
 import "./App.css";
+import React from "react";
+import Navigation from "./Components/Nav/Nav";
+import Footer from "./Components/Footer/Footer";
+import Main from "./Components/Main/Main";
+import "./css/styles.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1> Hellow Routing</h1>
-      </header>
-    </div>
+    <>
+      <Navigation />
+      <Main />
+      <Footer />
+    </>
   );
 }
 
