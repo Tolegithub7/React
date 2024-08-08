@@ -1,9 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-
-import HeaderLink from "./HeaderLink/HeaderLink";
 
 import logo from "../../images/icons/logo-sm.png";
 import search from "../../images/icons/search-icon-sm.png";
