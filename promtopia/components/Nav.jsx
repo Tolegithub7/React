@@ -16,6 +16,7 @@ const Nav = () => {
           height={30}
           alt="Promptopia logo"
         />
+        <p className="logo_text">Promtopia</p>
       </Link>
     </nav>
   );
