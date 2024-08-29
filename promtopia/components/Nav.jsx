@@ -18,7 +18,7 @@ const Nav = () => {
           height={30}
           alt="Promptopia logo"
         />
-        <p className="logo_text">Promtopia</p>
+        <p className="logo_text">Promptopia</p>
       </Link>
       {/* Desktop */}
       <div className="sm:flex hidden">
@@ -28,6 +28,9 @@ const Nav = () => {
             <Link href="/create-prompt" className="black_btn">
               Create Post
             </Link>
+            <button type="button" onClick={SignOut} className="outline_btn">
+              Sign Out
+            </button>
           </div>
         ) : (
           <></>
