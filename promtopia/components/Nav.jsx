@@ -10,11 +10,14 @@ const Nav = () => {
 
   const [providers, setProviders] = useState(null);
 
+  const [toggleDropDown, setToggleDropDown] = useState(false);
+
   useEffect(() => {
     const fetchProviders = async () => {
       const response = await getProviders();
       setProviders(response);
     };
+    // setProviders(response);
     fetchProviders();
   }, []);
 
@@ -64,7 +67,66 @@ const Nav = () => {
                 <button
                   type="button"
                   key={provider.name}
-                  onClick={() => signIn(provider.id)}
+                  onClick={() => SignIn(provider.id)}
+                  className="black_btn"
+                >
+                  Sign In
+                </button>
+              ))}
+          </>
+        )}
+      </div>
+      {/* Mobile Navigation */}
+      <div className="sm:hidden flex relative">
+        {isUserLoggedIn ? (
+          <div className="flex">
+            <Image
+              src="/assets/images/logo.svg"
+              width={37}
+              height={37}
+              className="rounded-full"
+              alt="Profile"
+              onClick={() => {
+                setToggleDropDown((prev) => !prev);
+              }}
+            />
+            {toggleDropDown && (
+              <div className="dropdown">
+                <Link
+                  href="/profile"
+                  className="dropdown_link"
+                  onClick={() => setToggleDropDown(false)}
+                >
+                  My Profile
+                </Link>
+                <Link
+                  href="/create-prompt"
+                  className="dropdown_link"
+                  onClick={() => setToggleDropDown(false)}
+                >
+                  Create Prompt
+                </Link>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setToggleDropDown(false);
+                    SignOut();
+                  }}
+                  className="mt-3 w-full black_btn "
+                >
+                  Sign Out
+                </button>
+              </div>
+            )}
+          </div>
+        ) : (
+          <>
+            {providers &&
+              Object.values(providers).map((provider) => (
+                <button
+                  type="button"
+                  key={provider.name}
+                  onClick={() => SignIn(provider.id)}
                   className="black_btn"
                 >
                   Sign In
