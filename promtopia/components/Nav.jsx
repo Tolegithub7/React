@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { SignIn, SignOut, UseSession, getProviders } from "next-auth/react";
 
 const Nav = () => {
-  const isUserLoggedIn = true;
+  const isUserLoggedIn = false;
 
   return (
     <nav className="flex-between w-full mb-6 pt-3">
@@ -31,9 +31,25 @@ const Nav = () => {
             <button type="button" onClick={SignOut} className="outline_btn">
               Sign Out
             </button>
+            <Link href="/profile">
+              <Image
+                src="/assets/images/logo.svg"
+                width={37}
+                height={37}
+                className="rounded-full"
+                alt="Profile"
+              />
+            </Link>
           </div>
         ) : (
-          <></>
+          <>
+            <Link href="/login" className="black_btn">
+              Sign In
+            </Link>
+            <Link href="/signup" className="outline_btn">
+              Sign Up
+            </Link>
+          </>
         )}
       </div>
     </nav>
