@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { SignIn, SignOut, UseSession, getProviders } from "next-auth/react";
 
 const Nav = () => {
-  const isUserLoggedIn = true;
+  const { data: session } = UseSession();
 
   const [providers, setProviders] = useState(null);
 
@@ -36,7 +36,7 @@ const Nav = () => {
       {/* Desktop */}
       <div className="sm:flex hidden">
         {/* wc button to show whether user logged in or not */}
-        {isUserLoggedIn ? (
+        {session?.user ? (
           <div className="flex gap-3 md:gap-5">
             <Link href="/create-prompt" className="black_btn">
               Create Post
@@ -78,7 +78,7 @@ const Nav = () => {
       </div>
       {/* Mobile Navigation */}
       <div className="sm:hidden flex relative">
-        {isUserLoggedIn ? (
+        {session?.user ? (
           <div className="flex">
             <Image
               src="/assets/images/logo.svg"
